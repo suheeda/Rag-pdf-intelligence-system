@@ -32,39 +32,6 @@ Ask questions in plain English against a private corpus of PDFs — the system r
 
 ---
 
-## Screenshots
-
-### Chat Interface — Ready State
-
-> The UI loads at `localhost:8000`. Corpus stats update live; click **Ingest PDFs** to index your documents.
-
-![RAG Chatbot UI — Ready](https://raw.githubusercontent.com/suheeda/Rag-pdf-intelligence-system/main/docs/screenshots/ui_ready.png)
-
----
-
-### Ingestion Complete
-
-> After ingestion, the sidebar confirms PDFs processed, chunks stored, and time taken. Re-ingestion is idempotent — already-indexed files are skipped automatically.
-
-![Ingestion Complete](https://raw.githubusercontent.com/suheeda/Rag-pdf-intelligence-system/main/docs/screenshots/ingestion_complete.png)
-
----
-
-### RAG Response with Source Citations
-
-> The chatbot generates a grounded answer and lists the exact source documents and page numbers used. The sidebar shows retrieved chunks with relevance scores.
-
-![RAG Response with Citations](https://raw.githubusercontent.com/suheeda/Rag-pdf-intelligence-system/main/docs/screenshots/rag_response_citations.png)
-
----
-
-### Retrieval Visualization — Top Chunks
-
-> Each answer surfaces the top retrieved chunks in the sidebar — showing filename, page number, relevance score, and a text preview for full transparency.
-
-![Retrieved Chunks Panel](https://raw.githubusercontent.com/suheeda/Rag-pdf-intelligence-system/main/docs/screenshots/retrieved_chunks.png)
-
----
 
 ## Architecture
 
