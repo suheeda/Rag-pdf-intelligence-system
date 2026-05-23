@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+chroma_db/
+data/pdfs/*.pdf
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+eval_results.json

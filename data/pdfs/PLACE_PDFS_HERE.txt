@@ -1,0 +1,13 @@
+Place your PDF files here (minimum 10 PDFs, each ≥200 pages).
+
+The ingestion pipeline will automatically:
+- Extract native text using PyMuPDF
+- Run OCR via Tesseract on scanned/image pages
+- Chunk text into 800-token passages with 150-token overlap
+- Embed using all-MiniLM-L6-v2
+- Store in ChromaDB with HNSW index
+
+After placing PDFs here, trigger ingestion via:
+  - UI: Click "Ingest PDFs" button at http://localhost:8000
+  - CLI: python scripts/ingest_and_query.py --pdf-dir ./data/pdfs
+  - API: POST http://localhost:8000/ingest

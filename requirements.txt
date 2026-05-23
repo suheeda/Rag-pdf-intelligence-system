@@ -1,0 +1,33 @@
+# Core API
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# PDF Extraction
+PyMuPDF==1.24.3
+pypdf==4.2.0
+
+# OCR (optional — requires Tesseract system install)
+pytesseract==0.3.10
+Pillow==10.3.0
+
+# Embeddings
+sentence-transformers==2.7.0
+
+# Vector DB
+chromadb==0.5.0
+
+# LLM clients (install what you use)
+google-generativeai==0.5.4     # for Gemini
+httpx==0.27.0                  # for Ollama
+# openai==1.30.0               # uncomment for OpenAI
+
+# Utilities
+python-dotenv==1.0.1
+
+# Testing
+pytest==8.2.0
+pytest-asyncio==0.23.7
+httpx==0.27.0
